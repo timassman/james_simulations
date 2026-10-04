@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>james_gazebo</name>
+  <version>0.1.0</version>
+  <description>Gazebo simulation models and launch files for the James robot</description>
+
+  <maintainer email="timassman@users.noreply.github.com">Tim Assman</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>rviz2</build_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

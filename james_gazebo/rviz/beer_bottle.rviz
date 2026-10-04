@@ -1,0 +1,28 @@
+Panels:
+  - Class: rviz_common/DisplaysPanel
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Root
+        - /Root/Scene
+        - /Root/Scene/Background Color
+        - /Root/Scene/Fixed Frame
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: rviz_common/VisualizationManager
+  Displays:
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ''
+  Enabled: true
+  Fixed Frame: world
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+  Value: true

@@ -1,0 +1,11 @@
+# colcon build output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code settings (contain machine-specific paths)
+.vscode/

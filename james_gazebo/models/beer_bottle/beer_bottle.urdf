@@ -1,0 +1,14 @@
+<robot name="beer_bottle">
+  <link name="link">
+    <collision name="collision">
+      <geometry>
+        <mesh filename="model://beer_bottle/meshes/beerbottle.obj"/>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <mesh filename="model://beer_bottle/meshes/beerbottle.obj"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
